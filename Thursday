@@ -1,0 +1,683 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyN/fs071L9n9knTmc7sU+aS",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/nikeji119/nikeji-/blob/main/Thursday\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "JcZBdXtjJLlH"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#addition\n"
+      ],
+      "metadata": {
+        "id": "HFMW53_bJ9tk"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "rice=25.20\n",
+        "beans=23\n",
+        "garri=17.50\n",
+        "meat=14\n",
+        "fish=50.01\n"
+      ],
+      "metadata": {
+        "id": "LUUPlY-EKBul"
+      },
+      "execution_count": 12,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "rice+beans\n",
+        "print(\"the price is: \",rice+beans) #the result is"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "nO1NlLJRKcvw",
+        "outputId": "2e84275c-aebb-4c67-910c-d0be9a7ee06e"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "the price is:  48.2\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "garri-rice\n",
+        "print(\"the price is:\", garri-rice) #the result is "
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "GTCJkQ4WM7VH",
+        "outputId": "d1e5a014-351f-43d1-f2f6-b19461c0f744"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "the price is: -7.699999999999999\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "fish*meat\n",
+        "print(\"the price is:\", fish*meat) #the result is"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jbWaM4nINXFg",
+        "outputId": "ac2570fc-9b8e-4ba6-d03c-842a20d8955b"
+      },
+      "execution_count": 16,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "the price is: 700.14\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "beans**rice\n",
+        "print(\"the amount is:\", beans**rice) #the result is "
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "QmleLEJ9NtHL",
+        "outputId": "bd1fee0c-8469-47a3-9923-694ccd4bb5d7"
+      },
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "the amount is: 2.067956826754351e+34\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "beans%garri\n",
+        "print(\"the amount is:\", beans%garri) "
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "KibOHO5EOYHy",
+        "outputId": "aa1a3718-9bc3-4c86-ada4-3736c7fde424"
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "the amount is: 5.5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "cal = int((garri*(fish+beans**rice))/(fish%rice-meat))\n",
+        "print(\"the price is:\", cal)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FBzJnFWnOE4g",
+        "outputId": "b2fe4ee7-8ee9-480d-9dd3-fd74343b5416"
+      },
+      "execution_count": 30,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "the price is: 33477561950232327364681774619688960\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "type(cal)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "hO3NL7izf2_O",
+        "outputId": "6377bcc2-96f9-4fda-9260-c95d93db3084"
+      },
+      "execution_count": 43,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "int"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 43
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = int(3.5)"
+      ],
+      "metadata": {
+        "id": "NCcY52R7VZrn"
+      },
+      "execution_count": 34,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "eIL9mkRiWCeB",
+        "outputId": "9828ee21-4ebf-4add-e5e8-8dbb63615b5a"
+      },
+      "execution_count": 35,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "3"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 35
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "b = 3"
+      ],
+      "metadata": {
+        "id": "lZ4tiZigWChn"
+      },
+      "execution_count": 38,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "b"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6vDEj_1OWJ3b",
+        "outputId": "3d27733c-f85d-4709-e1fe-d5dadb80b1e7"
+      },
+      "execution_count": 39,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "3"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 39
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "c = float(b)"
+      ],
+      "metadata": {
+        "id": "UTWCAeWjWJ6E"
+      },
+      "execution_count": 40,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "c"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "tQF_6epbWJ9p",
+        "outputId": "6f602733-e522-442a-c5ca-10d195f8f22b"
+      },
+      "execution_count": 41,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "3.0"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 41
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "type(c)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "mFPinXZiWh5H",
+        "outputId": "dde3cfe4-e593-491e-c9d0-10bbfe8cfa38"
+      },
+      "execution_count": 42,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "float"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 42
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "(25>7)==(5<10)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "52OPjYU1Wh7X",
+        "outputId": "c2f02f6c-e9c3-414e-cdbc-af39b19469c4"
+      },
+      "execution_count": 44,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "True"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 44
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#boolean operation"
+      ],
+      "metadata": {
+        "id": "DlbdERcSiQIo"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "REE6-MHciW27"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "(90!=100)==(2==2)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TTfN2NG8Wh9_",
+        "outputId": "c95eac4e-40fd-4c77-d471-c21256781690"
+      },
+      "execution_count": 46,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "True"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 46
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "(63<100)==(50>60)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_htmCyboWiAg",
+        "outputId": "6ee08720-3dd1-43e6-ad78-38b0d0283b33"
+      },
+      "execution_count": 47,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "False"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 47
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "rice = \"a type of food\"\n",
+        "bomb =\"a type of food\" # False\n",
+        "rice == bomb"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3D7mkCJgWiC6",
+        "outputId": "2e5b80f7-77b9-4e4a-e0c1-c8cd4b3d063e"
+      },
+      "execution_count": 58,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "True"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 58
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "food = []\n",
+        "a ='apple juice'      \n",
+        "list(a)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ctRbainhWiGT",
+        "outputId": "6b9b0fb3-88ea-48cf-eba6-07d5136aaaa2"
+      },
+      "execution_count": 67,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "['a', 'p', 'p', 'l', 'e', ' ', 'j', 'u', 'i', 'c', 'e']"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 67
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "b = 'aple juice' \n",
+        "list(b)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "bZh8A84dmi1v",
+        "outputId": "84bd893d-da8d-4892-aa1f-b84be56ed83b"
+      },
+      "execution_count": 68,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "['a', 'p', 'l', 'e', ' ', 'j', 'u', 'i', 'c', 'e']"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 68
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a == b"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XQMHm_OLmi4M",
+        "outputId": "ccaa40cb-0b05-41a9-fbe1-233f79adc6e3"
+      },
+      "execution_count": 69,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "False"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 69
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "food=(\"rice,beans,yam,potato,bread\")\n",
+        "juice=(\"apple,orange,cashew,water melon\")\n",
+        "(\"rice==yam\")==(\"apple==orange\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "bDssRMV0mi6s",
+        "outputId": "640f03d0-ce4b-4634-e984-2a4ad9dce967"
+      },
+      "execution_count": 87,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "False"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 87
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = '7/10/2022'\n",
+        "b = '7/10/22'\n",
+        "a == b"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "UWBHR8cLmi9L",
+        "outputId": "25220d11-ee30-4732-9418-ce710b0a1a5b"
+      },
+      "execution_count": 82,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "False"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 82
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "list(a)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "46pr-oPRmi_g",
+        "outputId": "e327b458-3e77-4bf6-d435-7b46679da13a"
+      },
+      "execution_count": 83,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "['7', '/', '1', '0', '/', '2', '0', '2', '2']"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 83
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "list(b)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "wtp2StDkmjB4",
+        "outputId": "fad01a2e-b61c-4242-cd65-287bc8944459"
+      },
+      "execution_count": 84,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "['7', '/', '1', '0', '/', '2', '2']"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 84
+        }
+      ]
+    }
+  ]
+}
